@@ -1,0 +1,31 @@
+# Ignore virtual environments
+venv/
+.env
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*chroma_db
+*chroma_db-01
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore downloaded models
+models/
+*.h5
+*.ckpt
+*.pth
+*.pkl
+index.faiss
+
+# Ignore datasets (if applicable)
+data/
+*.csv
+*.tsv
+*.json
+*.xlsx
+
+# Ignore system files
+.DS_Store
+Thumbs.db
